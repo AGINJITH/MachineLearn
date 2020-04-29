@@ -11,7 +11,7 @@ particlesJS.load('particles-js', 'particles.json', function() {
 
 /* Otherwise just put the config content (json): */
 
-const mq = window.matchMedia( "(min-width: 960px)" );
+const mq = window.matchMedia( "(min-width: 970px)" );
 
 if (mq.matches) {
        particlesJS('particles-js',
