@@ -1,30 +1,69 @@
 
 
 <html>
+
 <head>
 
 
 <title>Machin Learing Web</title>
 <link href = "style.css" rel = "stylesheet" type = "text/css">
+<style>
 
+@media (min-width:700px){
+	h2::before{
+		
+		content:"Welcome to the site";
+	}
+	
+	
+}
+
+@media (max-width:699px){
+	h2::before{
+		
+		content:"Welcome";
+	}
+	
+	
+}
+
+
+
+
+
+</style>
 </head>
+
 <body>
 
 <div class="Welcome">
-<div class="logo"> <a href="index.html" >Home</a></div>
-<h1>Machin Learing Web</h1>
+
+<div class="logo"> <a href="party.html" >Home</a>
+
+<h2></h2>
+
+</div>
+
+<!-- <h2>New content</h2>-->
+<h1>Machin Learing Web</h1> 
 
 <p>Lets begin working with the machine learning.<br> Lets create a mechine barin.</p>
 
 <a class="link" href = "https://www.sololearn.com/Courses/"> Start here!</a>
 
+
 </div>
 
+
 <div id="particles-js"></div>
+
 <script src= "particles.js"></script>
+<script src = "alert.js"></script>
 <script src = "app.js"></script>
 
 
 
+
 </body>
+
 </html>

@@ -18,7 +18,7 @@ if (mql.matches){ // if media query matches
   {
     "particles": {
       "number": {
-        "value": 1000,
+        "value": 300,
         "density": {
           "enable": true,
           "value_area": 800
