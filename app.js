@@ -11,10 +11,9 @@ particlesJS.load('particles-js', 'particles.json', function() {
 
 /* Otherwise just put the config content (json): */
 
-const mq = window.matchMedia( "(min-width: 970px)" );
-
-if (mq.matches) {
-       particlesJS('particles-js',
+var mql = window.matchMedia("screen and (min-width: 800px)")
+if (mql.matches){ // if media query matches
+ particlesJS('particles-js',
   
   {
     "particles": {
@@ -134,8 +133,9 @@ if (mq.matches) {
   }
 
 );
-} else {
-  particlesJS('particles-js',
+}
+else{// for mobiles
+particlesJS('particles-js',
   
   {
     "particles": {
